@@ -1,0 +1,16 @@
+# Dataset root directory (relative or absolute path)
+path: datasets
+
+# Train and validation image folders
+train: train/images
+val: valid/images
+
+# Number of classes
+nc: 3
+
+# Class names (CHANGE these if your labels are different)
+names:
+  0: normal
+  1: left
+  2: right
+
